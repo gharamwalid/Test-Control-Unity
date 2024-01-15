@@ -26,7 +26,7 @@ public class RockCollider : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Enemy collided with player");
-            healthControl.DecreaseHealth(20);
+            healthControl.DecreaseHealth(70);
         }
     }
 }
